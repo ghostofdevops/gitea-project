@@ -1,0 +1,2 @@
+[gitea_server]
+192.168.16.140 ansible_user=root

@@ -1,0 +1,9 @@
+- name: Depoy Gitea
+  hosts: gitea_server
+  become: yes
+  vars:
+    gitea_version: "1.25.3"
+    system_ssh_port: 2022
+
+  roles:
+    - gitea

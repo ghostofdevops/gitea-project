@@ -1,4 +1,4 @@
-- name: Depoy Gitea
+- name: deploy Gitea
   hosts: gitea_server
   become: yes
   vars:
